@@ -1,0 +1,305 @@
+{
+  "@@locale": "en",
+  "appTitle": "Video Flux",
+  "editContent": "Edit content",
+  "editConfiguration": "Edit configuration",
+  "resetStyle": "Reset {style} to its defaults",
+  "@resetStyle": {
+    "placeholders": {
+      "style": {
+        "type": "String"
+      }
+    }
+  },
+  "debugPanel": "Debug panel",
+  "closeDebugPanel": "Close debug panel",
+  "switchLanguage": "Switch language",
+  "close": "Close",
+  "styleFacebook": "Facebook",
+  "styleTikTok": "TikTok",
+  "styleShorts": "Shorts",
+  "styleStories": "Stories",
+  "styleFacebookTitle": "Facebook feed",
+  "styleTikTokTitle": "TikTok",
+  "styleShortsTitle": "Shorts",
+  "styleStoriesTitle": "Stories",
+  "styleFacebookSummary": "Video posts between text posts in a scrolling list. Only the videos are preloaded, one ahead.",
+  "styleTikTokSummary": "Full-screen vertical pages, one video each. Looks one behind and two ahead.",
+  "styleShortsSummary": "Same shape, but keeps two behind as well, because people scrub backwards.",
+  "styleStoriesSummary": "Horizontal, tap to advance, auto-advances when a clip ends. Keeps only the next one warm.",
+  "couldNotLoadFeed": "Could not load the feed.",
+  "tryAgain": "Try again",
+  "clipCaption": "Clip {number} of {total}",
+  "@clipCaption": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "videoNumber": "Video {number}",
+  "@videoNumber": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "authorName": "Author {number}",
+  "@authorName": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "positionOfTotal": "{position} / {total}",
+  "@positionOfTotal": {
+    "placeholders": {
+      "position": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "outsideWindow": "Outside the preload window — not loaded",
+  "initializingAttempt": "Initializing (attempt {attempt})…",
+  "@initializingAttempt": {
+    "placeholders": {
+      "attempt": {
+        "type": "int"
+      }
+    }
+  },
+  "couldNotLoadVideo": "Could not load this video\n{error}",
+  "@couldNotLoadVideo": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "retry": "Retry",
+  "like": "Like",
+  "comment": "Comment",
+  "share": "Share",
+  "commentsAndShares": "{comments} comments · {shares} shares",
+  "@commentsAndShares": {
+    "placeholders": {
+      "comments": {
+        "type": "int"
+      },
+      "shares": {
+        "type": "int"
+      }
+    }
+  },
+  "sampleCommenter": "Sara",
+  "sampleComment": "Smooth! No stutter at all when I swipe.",
+  "contentTitle": "{style} content",
+  "@contentTitle": {
+    "placeholders": {
+      "style": {
+        "type": "String"
+      }
+    }
+  },
+  "configTitle": "{style} configuration",
+  "@configTitle": {
+    "placeholders": {
+      "style": {
+        "type": "String"
+      }
+    }
+  },
+  "savingRestartsFeed": "Saving restarts the feed.",
+  "applyingRestartsFeed": "Applying restarts the feed.",
+  "videoUrlsLabel": "Video URLs, one per line",
+  "playableSummary": "{valid} playable",
+  "@playableSummary": {
+    "placeholders": {
+      "valid": {
+        "type": "int"
+      }
+    }
+  },
+  "playableSummarySkipped": "{valid} playable, {skipped} skipped (not http/https)",
+  "@playableSummarySkipped": {
+    "placeholders": {
+      "valid": {
+        "type": "int"
+      },
+      "skipped": {
+        "type": "int"
+      }
+    }
+  },
+  "addBrokenUrl": "Add a broken URL",
+  "resetToSamples": "Reset to samples",
+  "textPostsLabel": "Text posts, one per line",
+  "textPostBeforeEvery": "A text post before every",
+  "nthVideo": "Nth video",
+  "videosPerPage": "Videos per page",
+  "repeatTheList": "Repeat the list",
+  "repeatHint": "After this many passes the feed ends.",
+  "repeatCount": "{count}×",
+  "@repeatCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "feedHoldsTotal": "The feed holds {count} videos in total.",
+  "@feedHoldsTotal": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "save": "Save",
+  "apply": "Apply",
+  "resetToPreset": "Reset to preset",
+  "decreaseField": "Decrease {label}",
+  "@decreaseField": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "increaseField": "Increase {label}",
+  "@increaseField": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "sectionWindow": "Window",
+  "sectionFastScrolling": "Fast scrolling",
+  "sectionPagination": "Pagination",
+  "sectionMemory": "Memory",
+  "sectionFailures": "Failures",
+  "fieldBehind": "Behind",
+  "fieldAhead": "Ahead",
+  "fieldWindowSize": "Window size",
+  "fieldWindowSizeHint": "Must exceed behind + ahead.",
+  "fieldDirectionBias": "Direction bias",
+  "fieldDirectionBiasHint": "Extra items toward the scroll direction.",
+  "fieldVelocityPreload": "Velocity preload",
+  "fieldVelocityPreloadHint": "Extra items for fast scrolling (needs a velocity).",
+  "fieldConcurrentInits": "Concurrent initializations",
+  "unlimited": "unlimited",
+  "fieldScrollDebounce": "Scroll debounce",
+  "millisecondsValue": "{value} ms",
+  "@millisecondsValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "fieldJumpThreshold": "Jump threshold",
+  "fieldJumpThresholdHint": "A move this big skips the debounce.",
+  "fieldPaginationThreshold": "Pagination threshold",
+  "fieldPaginationThresholdHint": "Load more when this few items remain.",
+  "fieldAdaptive": "Adaptive",
+  "fieldAdaptiveHint": "Narrow by device tier and memory pressure.",
+  "fieldDeviceTier": "Device tier",
+  "fieldRetryPolicy": "Retry policy",
+  "tierAuto": "Auto-detect",
+  "tierLow": "Force low",
+  "tierMid": "Force mid",
+  "tierHigh": "Force high",
+  "retryExponential": "Exponential, 1 retry",
+  "retryExponentialThree": "Exponential, 3 retries",
+  "retryFixed": "Fixed delay, 2 retries",
+  "retryNone": "No retry",
+  "tabStats": "Stats",
+  "tabWindow": "Window",
+  "tabEvents": "Events",
+  "tabControls": "Controls",
+  "eventsCount": "{count} events",
+  "@eventsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "clear": "Clear",
+  "legendNotLoaded": "not loaded",
+  "legendInitializing": "initializing",
+  "legendReady": "ready",
+  "legendFailed": "failed",
+  "firstRetainedIndex": "first retained index",
+  "activeIndex": "active index",
+  "direction": "direction",
+  "videosLoaded": "videos loaded",
+  "rowsLoaded": "rows loaded",
+  "tapCellToJump": "Tap a cell to jump there.",
+  "statsWindow": "Window",
+  "statsWork": "Work",
+  "statsScrolling": "Scrolling",
+  "statsEnvironment": "Environment",
+  "statsEnforced": "Enforced vs configured",
+  "statRetainedWindow": "retained / window size",
+  "statReady": "ready",
+  "statInitializing": "initializing",
+  "statFailed": "failed",
+  "statQueued": "queued for a slot",
+  "statInitsStarted": "initializations started",
+  "statSucceeded": "succeeded",
+  "statFailedAttempts": "failed attempts",
+  "statRetried": "retried",
+  "statDropped": "dropped before starting",
+  "statReleased": "controllers released",
+  "statScrolls": "scrolls that took effect",
+  "statPoolHit": "pool hit rate",
+  "statAvgInit": "avg init",
+  "statP95Init": "p95 init",
+  "statDeviceTier": "device tier",
+  "statMemoryPressure": "memory pressure",
+  "statPagination": "pagination",
+  "paginationReachedEnd": "reached the end",
+  "paginationMoreAvailable": "more available",
+  "statBehindAhead": "behind / ahead",
+  "statWindow": "window",
+  "statConcurrentInits": "concurrent inits",
+  "withConfig": "{value}   (config {config})",
+  "@withConfig": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "config": {
+        "type": "String"
+      }
+    }
+  },
+  "controlsMemoryPressure": "Memory pressure",
+  "memoryPressureHint": "Shrinking is immediate. Choosing a milder level grows the window back one level at a time.",
+  "pressureNone": "none",
+  "pressureModerate": "moderate",
+  "pressureCritical": "critical",
+  "controlsScrolling": "Scrolling",
+  "flickForward": "Flick ×10 forward",
+  "flickBack": "Flick ×10 back",
+  "jumpFirst": "Jump to first",
+  "jumpMiddle": "Jump to middle",
+  "jumpLast": "Jump to last loaded",
+  "flickHint": "A flick steps one video every 40 ms: watch the debounce collapse it, and \"dropped before starting\" climb.",
+  "controlsFailures": "Failures",
+  "failNextPage": "Fail the next page request",
+  "failNextPageHint": "Exercises pagination backoff.",
+  "retryAllFailed": "Retry every failed video",
+  "failuresHint": "Add a broken URL in \"Edit content\" to see retries and failure states.",
+  "settings": "Settings"
+}

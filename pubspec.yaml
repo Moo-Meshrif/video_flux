@@ -1,0 +1,23 @@
+name: video_flux
+description: "A player-agnostic sliding-window video preloader for Flutter feeds: keeps a bounded set of controllers initialized around the active item, with device-aware memory limits."
+version: 0.0.1
+homepage: https://github.com/Moo-Meshrif/video_flux
+repository: https://github.com/Moo-Meshrif/video_flux
+issue_tracker: https://github.com/Moo-Meshrif/video_flux/issues
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.24.3'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+screenshots:
+  - description: 'Video Flux in action: sliding window, fast scroll and four feed styles on a real phone.'
+    path: doc/video_flux.gif

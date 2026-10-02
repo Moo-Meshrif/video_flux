@@ -1,0 +1,305 @@
+{
+  "@@locale": "ar",
+  "appTitle": "Video Flux",
+  "editContent": "تعديل المحتوى",
+  "editConfiguration": "تعديل الإعدادات",
+  "resetStyle": "إعادة تعيين {style} إلى الإعدادات الافتراضية",
+  "@resetStyle": {
+    "placeholders": {
+      "style": {
+        "type": "String"
+      }
+    }
+  },
+  "debugPanel": "لوحة الاحصائيات",
+  "closeDebugPanel": "إغلاق لوحة الاحصائيات",
+  "switchLanguage": "تبديل اللغة",
+  "close": "إغلاق",
+  "styleFacebook": "فيسبوك",
+  "styleTikTok": "تيك توك",
+  "styleShorts": "Shorts",
+  "styleStories": "القصص",
+  "styleFacebookTitle": "فيسبوك",
+  "styleTikTokTitle": "تيك توك",
+  "styleShortsTitle": "Shorts",
+  "styleStoriesTitle": "القصص",
+  "styleFacebookSummary": "منشورات فيديو بين المنشورات النصية في قائمة قابلة للتمرير. يتم تحميل الفيديوهات مسبقًا، فيديو واحد إلى الأمام.",
+  "styleTikTokSummary": "صفحات عمودية بملء الشاشة، فيديو واحد في كل صفحة. يتم الاحتفاظ بفيديو واحد خلف الصفحة الحالية وفيديوهين أمامها.",
+  "styleShortsSummary": "نفس الشكل، مع الاحتفاظ أيضًا بفيديوهين خلف الصفحة الحالية لأن المستخدمين قد يعودون للخلف أثناء التمرير.",
+  "styleStoriesSummary": "تمرير أفقي بالنقر للانتقال، وينتقل تلقائيًا عند انتهاء المقطع. يتم تجهيز المقطع التالي فقط.",
+  "couldNotLoadFeed": "تعذر تحميل الموجز.",
+  "tryAgain": "حاول مرة أخرى",
+  "clipCaption": "المقطع {number} من {total}",
+  "@clipCaption": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "videoNumber": "الفيديو {number}",
+  "@videoNumber": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "authorName": "المؤلف {number}",
+  "@authorName": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "positionOfTotal": "{position} / {total}",
+  "@positionOfTotal": {
+    "placeholders": {
+      "position": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "outsideWindow": "خارج نطاق التحميل المسبق — لم يتم تحميله",
+  "initializingAttempt": "جارٍ التهيئة (المحاولة {attempt})…",
+  "@initializingAttempt": {
+    "placeholders": {
+      "attempt": {
+        "type": "int"
+      }
+    }
+  },
+  "couldNotLoadVideo": "تعذر تحميل هذا الفيديو\n{error}",
+  "@couldNotLoadVideo": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "retry": "إعادة المحاولة",
+  "like": "إعجاب",
+  "comment": "تعليق",
+  "share": "مشاركة",
+  "commentsAndShares": "{comments} تعليق · {shares} مشاركة",
+  "@commentsAndShares": {
+    "placeholders": {
+      "comments": {
+        "type": "int"
+      },
+      "shares": {
+        "type": "int"
+      }
+    }
+  },
+  "sampleCommenter": "سارة",
+  "sampleComment": "سلس! لا يوجد أي تقطع عند التمرير.",
+  "contentTitle": "محتوى {style}",
+  "@contentTitle": {
+    "placeholders": {
+      "style": {
+        "type": "String"
+      }
+    }
+  },
+  "configTitle": "إعدادات {style}",
+  "@configTitle": {
+    "placeholders": {
+      "style": {
+        "type": "String"
+      }
+    }
+  },
+  "savingRestartsFeed": "سيؤدي الحفظ إلى إعادة تشغيل الموجز.",
+  "applyingRestartsFeed": "سيؤدي التطبيق إلى إعادة تشغيل الموجز.",
+  "videoUrlsLabel": "عناوين URL للفيديو، واحد في كل سطر",
+  "playableSummary": "{valid} قابل للتشغيل",
+  "@playableSummary": {
+    "placeholders": {
+      "valid": {
+        "type": "int"
+      }
+    }
+  },
+  "playableSummarySkipped": "{valid} قابل للتشغيل، تم تخطي {skipped} (ليس http/https)",
+  "@playableSummarySkipped": {
+    "placeholders": {
+      "valid": {
+        "type": "int"
+      },
+      "skipped": {
+        "type": "int"
+      }
+    }
+  },
+  "addBrokenUrl": "إضافة عنوان URL معطّل",
+  "resetToSamples": "إعادة التعيين إلى العينات",
+  "textPostsLabel": "المنشورات النصية، واحد في كل سطر",
+  "textPostBeforeEvery": "منشور نصي قبل كل",
+  "nthVideo": "فيديو رقم",
+  "videosPerPage": "فيديوهات لكل صفحة",
+  "repeatTheList": "تكرار القائمة",
+  "repeatHint": "بعد هذا العدد من مرات التكرار ينتهي الموجز.",
+  "repeatCount": "{count}×",
+  "@repeatCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "feedHoldsTotal": "يحتوي الموجز على {count} فيديو إجمالًا.",
+  "@feedHoldsTotal": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "save": "حفظ",
+  "apply": "تطبيق",
+  "resetToPreset": "إعادة التعيين إلى الإعداد المسبق",
+  "decreaseField": "تقليل {label}",
+  "@decreaseField": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "increaseField": "زيادة {label}",
+  "@increaseField": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "sectionWindow": "النطاق",
+  "sectionFastScrolling": "التمرير السريع",
+  "sectionPagination": "التصفح بالصفحات",
+  "sectionMemory": "الذاكرة",
+  "sectionFailures": "الأخطاء",
+  "fieldBehind": "خلف",
+  "fieldAhead": "أمام",
+  "fieldWindowSize": "حجم النطاق",
+  "fieldWindowSizeHint": "يجب أن يتجاوز مجموع الخلف والأمام.",
+  "fieldDirectionBias": "تحيز الاتجاه",
+  "fieldDirectionBiasHint": "عناصر إضافية في اتجاه التمرير.",
+  "fieldVelocityPreload": "التحميل المسبق حسب السرعة",
+  "fieldVelocityPreloadHint": "عناصر إضافية للتمرير السريع (يتطلب توفر سرعة).",
+  "fieldConcurrentInits": "عمليات التهيئة المتزامنة",
+  "unlimited": "غير محدود",
+  "fieldScrollDebounce": "تأخير التمرير",
+  "millisecondsValue": "{value} مللي ثانية",
+  "@millisecondsValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "fieldJumpThreshold": "حد القفز",
+  "fieldJumpThresholdHint": "حركة بهذا الحجم تتجاوز فترة التأخير.",
+  "fieldPaginationThreshold": "حد التصفح بالصفحات",
+  "fieldPaginationThresholdHint": "تحميل المزيد عند بقاء هذا العدد القليل من العناصر.",
+  "fieldAdaptive": "متكيف",
+  "fieldAdaptiveHint": "تضييق النطاق حسب فئة الجهاز وضغط الذاكرة.",
+  "fieldDeviceTier": "فئة الجهاز",
+  "fieldRetryPolicy": "سياسة إعادة المحاولة",
+  "tierAuto": "اكتشاف تلقائي",
+  "tierLow": "فرض منخفض",
+  "tierMid": "فرض متوسط",
+  "tierHigh": "فرض مرتفع",
+  "retryExponential": "أسي، محاولة إعادة واحدة",
+  "retryExponentialThree": "أسي، 3 محاولات إعادة",
+  "retryFixed": "تأخير ثابت، محاولتا إعادة",
+  "retryNone": "بدون إعادة محاولة",
+  "tabStats": "الإحصاءات",
+  "tabWindow": "النطاق",
+  "tabEvents": "الأحداث",
+  "tabControls": "عناصر التحكم",
+  "eventsCount": "{count} حدث",
+  "@eventsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "clear": "مسح",
+  "legendNotLoaded": "لم يتم التحميل",
+  "legendInitializing": "جارٍ التهيئة",
+  "legendReady": "جاهز",
+  "legendFailed": "فشل",
+  "firstRetainedIndex": "فهرس أول عنصر محتفظ به",
+  "activeIndex": "الفهرس النشط",
+  "direction": "الاتجاه",
+  "videosLoaded": "الفيديوهات المحملة",
+  "rowsLoaded": "الصفوف المحملة",
+  "tapCellToJump": "اضغط على خلية للانتقال إليها.",
+  "statsWindow": "النطاق",
+  "statsWork": "العمل",
+  "statsScrolling": "التمرير",
+  "statsEnvironment": "البيئة",
+  "statsEnforced": "المطبق مقابل المكوّن",
+  "statRetainedWindow": "النطاق المحتفظ به / حجم النطاق",
+  "statReady": "جاهز",
+  "statInitializing": "جارٍ التهيئة",
+  "statFailed": "فشل",
+  "statQueued": "في قائمة الانتظار للحصول على فتحة",
+  "statInitsStarted": "عمليات التهيئة التي بدأت",
+  "statSucceeded": "نجحت",
+  "statFailedAttempts": "المحاولات الفاشلة",
+  "statRetried": "أُعيدت المحاولة",
+  "statDropped": "تم إسقاطها قبل البدء",
+  "statReleased": "وحدات التحكم التي تم تحريرها",
+  "statScrolls": "عمليات التمرير التي تم تنفيذها",
+  "statPoolHit": "معدل نجاح الاستفادة من التجمع",
+  "statAvgInit": "متوسط التهيئة",
+  "statP95Init": "تهيئة P95",
+  "statDeviceTier": "فئة الجهاز",
+  "statMemoryPressure": "ضغط الذاكرة",
+  "statPagination": "التصفح بالصفحات",
+  "paginationReachedEnd": "تم الوصول إلى النهاية",
+  "paginationMoreAvailable": "المزيد متاح",
+  "statBehindAhead": "خلف / أمام",
+  "statWindow": "النطاق",
+  "statConcurrentInits": "عمليات التهيئة المتزامنة",
+  "withConfig": "{value}   (الإعداد {config})",
+  "@withConfig": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "config": {
+        "type": "String"
+      }
+    }
+  },
+  "controlsMemoryPressure": "ضغط الذاكرة",
+  "memoryPressureHint": "يتم تقليص النطاق فورًا. يؤدي اختيار مستوى أقل حدة إلى توسيع النطاق مجددًا مستوى واحدًا في كل مرة.",
+  "pressureNone": "لا يوجد",
+  "pressureModerate": "متوسط",
+  "pressureCritical": "حرج",
+  "controlsScrolling": "التمرير",
+  "flickForward": "تمرير سريع ×10 للأمام",
+  "flickBack": "تمرير سريع ×10 للخلف",
+  "jumpFirst": "الانتقال إلى الأول",
+  "jumpMiddle": "الانتقال إلى المنتصف",
+  "jumpLast": "الانتقال إلى آخر فيديو محمّل",
+  "flickHint": "التمرير السريع ينتقل فيديو واحدًا كل 40 مللي ثانية: راقب كيف يجمع التأخير عمليات التمرير، وكيف يرتفع عدد العناصر التي تم إسقاطها قبل البدء.",
+  "controlsFailures": "الأخطاء",
+  "failNextPage": "إفشال طلب الصفحة التالية",
+  "failNextPageHint": "لاختبار التراجع التدريجي عند إعادة محاولة التصفح بالصفحات.",
+  "retryAllFailed": "إعادة محاولة جميع الفيديوهات الفاشلة",
+  "failuresHint": "أضف عنوان URL معطّلًا في «تعديل المحتوى» لرؤية عمليات إعادة المحاولة وحالات الفشل.",
+  "settings": "الإعدادات"
+}
